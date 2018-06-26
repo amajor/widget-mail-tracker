@@ -1,0 +1,48 @@
+{
+  "name": "@amajor/widget-mail-tracker",
+  "description": "A simple ReactJS widget that displays emails received, stamped, and uploaded.",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "private": false,
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amajor/widget-mail-tracker.git"
+  },
+  "author": "Alison Major",
+  "bugs": {
+    "url": "https://github.com/amajor/widget-mail-tracker/issues"
+  },
+  "homepage": "https://github.com/amajor/widget-mail-tracker",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "dependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-svg-loader": "^2.1.0",
+    "@storybook/react": "^3.4.8",
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-links": "^3.4.8",
+    "@storybook/addons": "^3.4.8"
+  }
+}

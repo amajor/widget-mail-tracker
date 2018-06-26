@@ -1,0 +1,24 @@
+.MailTracker {
+  text-align: center;
+}
+
+.big-number {
+  font-weight: 900;
+  font-size: 5em;
+  position: relative;
+  top: -20px;
+}
+
+.small-text {
+  display: block;
+}
+
+.small-image {
+  position: relative;
+  top: 10px;
+  margin-right: 0.5em;
+}
+
+.MailTracker.container {
+  max-width: 750px;
+}
