@@ -1,7 +1,7 @@
 {
   "name": "@amajor/widget-mail-tracker",
   "description": "A simple ReactJS widget that displays emails received, stamped, and uploaded.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "private": false,
   "license": "BSD-3-Clause",
