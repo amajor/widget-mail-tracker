@@ -33,7 +33,7 @@ const MailTracker = props => (
       <div className="col-sm">
         <BigNumber
           bigNumber={props.numberUploaded}
-          smallPrint={"UPLOADED"}
+          smallPrint={"DONE"}
           imageChoice="upload"
         />
       </div>
